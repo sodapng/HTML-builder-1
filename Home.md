@@ -6,14 +6,6 @@ The check is carried out on the current **LTS** version of Node, and <u>without<
 
 ### Cross-Check Steps
 
-1. Клонируйте [репозиторий с заданием](https://github.com/EvgeniiMal/HTML-builder) и откройте корневую папку с заданием в среде разработки
-2. Откройте страницу с репозиторием задания проверяемого студента
-3. Откройте папку с соответствующей задачей, затем откройте файл index.js и скопируйте код задачи
-4. В среде разработки найдите папку с соответствующей задачей и откройте в ней файл index.js для редактирования
-5. Вставьте туда ранее скопированный код проверяемого студента и сохраните изменения.
-6. Обратите внимание на то какой метод импорта использует проверяемый. В случае если используются es6 modules(import/export) для корректной работы вам нужно внести правки в ваш **package.json** файл. Добавьте строку ```"type": "module",``` в **package.json** сразу после строки ```"description": "html-builder task for RSSchool",```
-7. Для каждого из заданий выполните проверку согласно описанному ниже порядку действий. Перед проверкой следующего студента приведите локальный репозиторий в исходное состояние. Задания должны проверяться строго в порядке от 01 до 06:
-
 1. Clone the [task repository](https://github.com/rolling-scopes-school/HTML-builder) and open the root folder with the task in your IDE/code editor.
 2. Open the page with the repository of the student whose task you are checking.
 3. Open the folder with the corresponding task, then open the `index.js` file, and copy the code of the task.
