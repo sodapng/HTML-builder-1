@@ -23,9 +23,9 @@ The check is carried out on the current **LTS** version of Node, and <u>without<
 Add the line `"type": "module"`, to `package.json` <u>immediately after</u> the line `"description": "html-builder task for RSSchool",`.
 7. For each of the tasks, perform the check according to the sequence of actions described below. Before checking the next student, restore the local repository to its original state. Tasks must be checked strictly in order from 01 to 06:
 
-- [01 read file](./Check-01-read-file.md)
-- [02 write file](./Check-02-write-file.md)
-- [03 files in folder](./Check-03-files-in-folder.md)
-- [04 copy directory](./Check-04-copy-directory.md)
-- [05 merge styles](./Check-05-merge-styles.md)
-- [06 build page](./Check-06-build-page.md)
+- [01 read file](https://github.com/rolling-scopes-school/HTML-builder/wiki/Check-01-read-file)
+- [02 write file](https://github.com/rolling-scopes-school/HTML-builder/wiki/Check-02-write-file)
+- [03 files in folder](https://github.com/rolling-scopes-school/HTML-builder/wiki/Check-03-files-in-folder)
+- [04 copy directory](https://github.com/rolling-scopes-school/HTML-builder/wiki/Check-04-copy-directory)
+- [05 merge styles](https://github.com/rolling-scopes-school/HTML-builder/wiki/Check-05-merge-styles)
+- [06 build page](https://github.com/rolling-scopes-school/HTML-builder/wiki/Check-06-build-page)
