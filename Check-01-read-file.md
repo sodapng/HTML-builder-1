@@ -1,10 +1,10 @@
-Описание хода проверки задания **01-read-file**:
+Description of the cross-check process **01-read-file**:
 
-#### [Видео с примером проверки задания](https://www.youtube.com/watch?v=xBkbVDd582g)
+[Video with the example of cross-check](https://www.youtube.com/watch?v=xBkbVDd582g)
 
-1. Проверьте код на наличие синхронных методов модуля **fs**(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска **Sync**) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
-2. Убедитесь, что для чтения файла используется ReadStream. Если для чтения файла не используется стрим задание считается невыполненным - 0 баллов.
-3. Находясь в корневой директории репозитория выполните команду ```node 01-read-file``` и убедитесь, что  в консоль выводится содержимое файла **text.txt**(наличие/отсутствие пустых строк в конце файла не проверяется). В случае ошибок или пустого вывода при наличии текста в **text.txt** задание считается невыполненным - 0 баллов.
-4. Измените содержимое файла **text.txt** и ещё раз запустите команду ```node 01-read-file```. Результат должен соответствовать текущему состоянию **text.txt**, в противном случае задание считается невыполненным - 0 баллов.
+1. Check the code for the presence of synchronous methods of the **fs module** (you can use the `ctrl + f` key combination and enter `Sync` in the search field that appears) and **setTimeout()**. If synchronous methods or a timer are used, the task is considered not completed - **0 points**.
+2. Make sure that a **ReadStream** is used to read the file. If a stream is not used for reading the file, the task is considered not completed - **0 points**.
+3. <u>In the root directory of the repository</u>, execute the command `node 01-read-file` and make sure that the contents of the `text.txt` file are output to the console (the presence/absence of empty lines at the end of the file is <u>not checked</u>). In case of errors or empty output when there is text in `text.txt`, the task is considered not completed - **0 points**.
+4. Change the contents of the `text.txt` file and run the command `node 01-read-file` again. The result should correspond to the current state of `text.txt`, otherwise, the task is considered not completed - **0 points**.
 
-В случае успешной проверки всех пунктов за задание начисляется 20 баллов
+If all points are successfully checked, **20 points** are awarded for the task.
