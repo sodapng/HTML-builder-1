@@ -1,12 +1,12 @@
-Описание хода проверки задания **03-files-in-folder**:
+Description of the cross-check process **03-files-in-folder**:
 
-#### [Видео с примером проверки задания](https://www.youtube.com/watch?v=fMJ4zE1DnD8)
+[Video with the example of cross-check](https://www.youtube.com/watch?v=fMJ4zE1DnD8)
 
-1. Проверьте код на наличие синхронных методов модуля **fs**(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска **Sync**) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
-2. Выполните команду ```node 03-files-in-folder``` в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри **secret-folder**(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
-3. Дополните папку **secret-folder** одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например [тут](https://ru.lipsum.com/))
-4. Дополните папку **secret-folder** двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. **my-folder.js**)
-5. Запустите скрипт командой ```node 03-files-in-folder```, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+1. Check the code for the presence of synchronous methods of the **fs module** (you can use the `ctrl/cmd + f` key combination and enter `Sync` in the search field that appears) and **setTimeout()**. If synchronous methods or a timer are used, the task is considered not completed - **0 points**.
+2. <u>In the root directory of the repository</u>, execute the command `node 03-files-in-folder`. Information about files inside the `secret-folder` should be displayed in the console (<u>information about files in subfolders should not be displayed</u>). If you encounter an error during execution or receive incorrect information about files, the task is considered not completed - **0 points**.
+3. Add one or more files of different sizes to the `secret-folder` (you can generate filler text, for example, [here](https://www.lipsum.com/)).
+4. Add two folders to the `secret-folder`. In the name of one of the folders, specify a fake extension (e.g., `my-folder.js`).
+5. Run the script with the command `node 03-files-in-folder` and check the correctness of the displayed data. If the information about added files is incorrect or if data about directories is displayed, the task is considered not completed - **0 points**.
 
-В случае успешной проверки всех пунктов за задание начисляется 20 баллов.  
-Минимальная оценка - 0 баллов.
+If all points are successfully checked, **20 points** are awarded for the task.  
+Minimum score - **0 points**.
