@@ -1,14 +1,14 @@
-Описание хода проверки задания 05-merge-styles:
+Description of the cross-check process **05-merge-styles**:
 
-#### [Видео с примером проверки задания](https://www.youtube.com/watch?v=MHz_1ExMRPU)
+[Video with the example of cross-check](https://www.youtube.com/watch?v=MHz_1ExMRPU)
 
-1. Проверьте код на наличие синхронных методов модуля **fs**(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска **Sync**) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
-2. Убедитесь, что в папке **project-dist** находится только файл **index.html**. При наличии посторонних файлов удалите их.
-3. Запустите скрипт командой ```node 05-merge-styles``` находясь в корневом каталоге репозитория. Для наглядности работы скрипта вы можете открыть файл **index.html** с помощью расширения **Live Server**. При наличии ошибок во время работы скрипта задание считается невыполненным - 0 баллов.  
-4. Проверьте содержимое файла bundle.css. Cодержимое файла и форматирование стилей в нем должно соответствовать файлам-исходникам, стили не должны сливаться. Последовательность стилей не проверяется!   Если **bundle.css** содержит некорректные стили задание считается невыполненным - 0 баллов.
-5. Измените содержимое папки **styles** удалив один или несколько файлов стилей, или же замените папку **styles** и **project-dist/index.html** на содержимое папки **test-files**(сгенерированный ранее файл **bundle.css** должен остаться в **project-dist**). 
-6. В папку **styles** добавьте файл с расширением отличным от **css** и содержимым вида **ext-test-string**(или любой другой строкой по вашему выбору). 
-7. Запустите скрипт и убедитесь, что файл **bundle.css** перезаписан и содержит актуальные и корректные стили. Если этого не произошло задание считается невыполненным - 0 баллов.
-8. Выполните поиск строки **ext-test-string**(или строки записанной в файл с расширением отличным от **css**) по файлу **bundle.css** с помощью комбинации клавиш **ctrl + f**. При наличии строки в файле задание считается невыполненным - 0 баллов.
+1. Check the code for the presence of synchronous methods of the **fs module** (you can use the `ctrl/cmd + f` key combination and enter `Sync` in the search field that appears) and **setTimeout()**. If synchronous methods or a timer are used, the task is considered not completed - **0 points**.
+2. Ensure that only the `index.html` file is present in the `project-dist` folder. If there are any extraneous files, delete them.
+3. <u>In the root directory of the repository</u>, execute the command `node 05-merge-styles`. For a better understanding of the script's operation, you can open the `index.html` file using the **Live Server** extension. If there are errors during the script's execution, the task is considered not completed - **0 points**.
+4. Check the content of the `bundle.css` file. The content of the file and the styling format in it should match the source files, and styles should not be merged. <u>The sequence of styles is not checked!</u> If `bundle.css` contains incorrect styles, the task is considered not completed - **0 points**.
+5. Change the content of the `styles` folder by removing one or more style files, or replace the `styles` folder and `project-dist/index.html` with the content of the `test-files` folder (the previously generated `bundle.css` file should remain in `project-dist`).
+6. In the `styles` folder, add a file with an extension other than `css` and content like `ext-test-string` (or any other string of your choice).
+7. Run the script and ensure that the `bundle.css` file is overwritten and contains up-to-date and correct styles. If this does not happen, the task is considered not completed - **0 points**.
+8. Search for the string `ext-test-string` (or the string written in a file with an extension other than `css`) in the `bundle.css` file using the `ctrl/cmd + f` key combination. If the string is present in the file, the task is considered not completed - **0 points**.
 
-В случае успешной проверки всех пунктов за задание начисляется 20 баллов
+If all points are successfully checked, **20 points** are awarded for the task.

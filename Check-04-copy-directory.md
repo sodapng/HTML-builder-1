@@ -1,6 +1,6 @@
 Description of the cross-check process **04-copy-directory**:
 
-#### [Video with the example of cross-check](https://www.youtube.com/watch?v=SIcfroM-QwA)
+[Video with the example of cross-check](https://www.youtube.com/watch?v=SIcfroM-QwA)
 
 1. Check the code for the presence of synchronous methods of the **fs module** (you can use the `ctrl/cmd + f` key combination and enter `Sync` in the search field that appears) and **setTimeout()**. If synchronous methods or a timer are used, the task is considered not completed - **0 points**.
 2. Check the `index.js` file for the presence of the experimental function **fsPromises.cp()**. If this function is used, the task is considered not completed - **0 points**.
