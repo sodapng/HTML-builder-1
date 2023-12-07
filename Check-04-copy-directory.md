@@ -1,14 +1,14 @@
-Описание хода проверки задания 04-copy-directory:
+Description of the cross-check process **04-copy-directory**:
 
-#### [Видео с примером проверки задания](https://www.youtube.com/watch?v=SIcfroM-QwA)
+#### [Video with the example of cross-check](https://www.youtube.com/watch?v=SIcfroM-QwA)
 
-1. Проверьте код на наличие синхронных методов модуля **fs**(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска **Sync**) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
-2. Проверьте файл index.js на наличие экспериментальной функции fsPromises.cp(). В случае её использования задание считается невыполненным - 0 баллов.
-2. Откройте папку **files** и убедитесь, что она не пуста. В противном случае создайте несколько файлов на ваше усмотрение.
-3. Запустите скрипт командой ```node 04-copy-directory``` находясь в корневом каталоге репозитория.
-4. После завершения выполнения скрипта проверьте папку **04-copy-directory** на наличие созданной папки **files-copy** с точной копией содержимого исходной папки **files**. Если данная папка отсутствует или же содержимое не совпадает с содержимым папки **files** задание считается невыполненным - 0 баллов.
-5. Добавьте ещё несколько новых файлов в папку **files** и удалите один из ранее существовавших. Запустите команду ```node 04-copy-directory```.
-6. Убедитесь, что содержимое папки **files-copy** обновлено и соответствует содержимому папки **files**. Если в процессе выполнения произошла ошибка или состояние папки  **files-copy**  не было актуализировано задание считается невыполненным - 0 баллов.
+1. Check the code for the presence of synchronous methods of the **fs module** (you can use the `ctrl/cmd + f` key combination and enter `Sync` in the search field that appears) and **setTimeout()**. If synchronous methods or a timer are used, the task is considered not completed - **0 points**.
+2. Check the `index.js` file for the presence of the experimental function **fsPromises.cp()**. If this function is used, the task is considered not completed - **0 points**.
+3. Open the `files` folder and make sure it is not empty. Otherwise, create several files at your discretion.
+4. <u>In the root directory of the repository</u>, execute the command `node 04-copy-directory`.
+5. After the script execution is complete, check the `04-copy-directory` folder for the presence of the created `files-copy` folder with an exact copy of the content of the original `files` folder.  
+If this folder is missing or its content does not match the content of the `files` folder, the task is considered not completed - **0 points**.
+6. Add several new files to the `files` folder and delete one of the previously existing ones. Run the command `node 04-copy-directory`.
+7. Ensure that the content of the `files-copy` folder is updated and corresponds to the content of the `files` folder. If an error occurred during execution or the state of the `files-copy` folder was not updated, the task is considered not completed - **0 points**.
 
-
-В случае успешной проверки всех пунктов за задание начисляется 20 баллов
+If all points are successfully checked, **20 points** are awarded for the task.
