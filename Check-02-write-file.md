@@ -1,13 +1,13 @@
-Описание хода проверки задания 02-write-file:
+Description of the cross-check process **02-write-file**:
 
-#### [Видео с примером проверки задания](https://www.youtube.com/watch?v=zfH0VhWGyi0)
+[Video with the example of cross-check](https://www.youtube.com/watch?v=zfH0VhWGyi0)
 
-1. Проверьте код на наличие синхронных методов модуля **fs**(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска **Sync**) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
-2. Убедитесь, что в папке **02-write-file** находится всего один файл с именем **index.js**. Если это не так, удалите всё лишние файлы из папки задания.
-3. Находясь в корневой директории репозитория выполните команду ```node 02-write-file``` и убедитесь, что в консоли появляется приглашение на ввод текста, а в каталоге **02-write-file** был создан текстовый файл. В случае ошибок или мгновенного завершения работы задание считается невыполненным - 0 баллов.
-4. После ввода текста убедитесь, что ввод корректно записался в созданный текстовый файл. Если этого не произошло или процесс завершился не ожидая продолжения ввода задание считается невыполненным - 0 баллов.
-5. Используйте сочетание клавиш ctrl + c. В консоль должна быть выведена прощальная фраза с последующим завершением процесса. Если процесс не завершается или не выводится прощальная фраза вычитается 10 баллов.
-6. Запустите скрипт и введите **exit**. В консоль должна быть выведена прощальная фраза с последующим завершением процесса. Если процесс не завершается или не выводится прощальная фраза вычитается 10 баллов.
+1. Check the code for the presence of synchronous methods of the **fs module** (you can use the `ctrl/cmd + f` key combination and enter `Sync` in the search field that appears) and **setTimeout()**. If synchronous methods or a timer are used, the task is considered not completed - **0 points**.
+2. Make sure that there is only one file named `index.js` in the `02-write-file` folder. If not, remove all unnecessary files from the task folder.
+3. <u>In the root directory of the repository</u>, execute the command `node 02-write-file` and ensure that a prompt for entering text appears in the console, and a text file has been created in the `02-write-file` directory. In case of errors or instant completion of the task execution, it is considered not completed - **0 points**.
+4. After entering the text, make sure that the input is correctly recorded in the created text file. If this does not happen or the process ends without expecting further input, the task is considered not completed - **0 points**.
+5. Use the `ctrl/cmd + c` key combination. A farewell phrase should be displayed in the console with subsequent process termination. If the process does not end or a farewell phrase is not displayed, **10 points are deducted**.
+6. Run the script and enter `exit`. A farewell phrase should be displayed in the console with subsequent process termination. If the process does not end or a farewell phrase is not displayed, **10 points are deducted**.
 
-В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
-Минимальная оценка - 0 баллов.
+If all points are successfully checked, **20 points** are awarded for the task.  
+Minimum score - **0 points**.
