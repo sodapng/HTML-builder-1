@@ -1,27 +1,27 @@
-Описание хода проверки задания 06-build-page:
+Description of the cross-check process **06-build-page**:
 
-#### [Видео с примером проверки задания](https://www.youtube.com/watch?v=bdWQyl6nXFA)
+[Video with the example of cross-check](https://www.youtube.com/watch?v=bdWQyl6nXFA)
 
-1. Проверьте код на наличие синхронных методов модуля **fs**(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска **Sync**) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+1. Check the code for the presence of synchronous methods of the **fs module** (you can use the `ctrl/cmd + f` key combination and enter `Sync` in the search field that appears) and **setTimeout()**. If synchronous methods or a timer are used, the task is considered not completed - **0 points**.
 
-2. Проверьте файл index.js на наличие экспериментальной функции fsPromises.cp(). В случае её использования задание считается невыполненным - 0 баллов.
+2. Check the `index.js` file for the presence of the experimental function **fsPromises.cp()**. If this function is used, the task is considered not completed - **0 points**.
 
-3. Запустите скрипт командой ```node 06-build-page``` находясь в корневом каталоге репозитория.
+3. <u>In the root directory of the repository</u>, execute the command `node 06-build-page`.
 
-4. После завершения работы скрипта в директории **06-build-page** должна быть создана папка **project-dist** содержащая в себе файлы **index.html** и **style.css**, а так же папку **assets**. Если этого не произошло, то задание считается невыполненным - 0 баллов.
+4. After the script terminates its execution, a `project-dist` folder should be created in the `06-build-page` directory, containing the `index.html` and `style.css` files, as well as the `assets` folder. If this does not happen, the task is considered not completed - **0 points**.
 
-5. Убедитесь, что файл **index.html** содержит разметку из файла **template.html** с заменой шаблонных тегов разметкой одноимённых файлов-компонентов из папки **components**. Разметка файлов-компонентов должна находиться строго на местах соответствующих шаблонных тегов. Самих тегов в файле **index.html** быть не должно. В случае если это не так задание считается невыполненным - 0 баллов.
+5. Ensure that the `index.html` file contains markup from the `template.html` file with the replacement of template tags with the markup of similarly named component files from the `components` folder. The markup of component files should be strictly in the places corresponding to the template tags. There should be no template tags themselves in the `index.html` file. If this is not the case, the task is considered not completed - **0 points**.
 
-6. Проверьте файл **style.css** на наличие правильной сборки стилей из папки **styles**. По аналогии с заданием **05-merge-styles** стили должны сохранять форматирование и не вклиниваться друг в друга. В случае если стили собраны некорректно задание считается невыполненным - 0 баллов. 
-Обратите внимание, что при использовании liveServer вы можете заметить небольшие проблемы со стилями в footer. Данный случай ошибкой не считается. 
+6. Check the `style.css` file for the correct assembly of styles from the `styles` folder. Similar to the task **05-merge-styles**, styles should maintain formatting and not interfere with each other. If the styles are assembled incorrectly, the task is considered not completed - **0 points**.  
+Note that when using **liveServer**, you may notice minor styling issues in the footer. <u>This case is not considered an error</u>.
 
-7. Откройте папку **assets**. Убедитесь, что её содержимое и содержимое подпапок находящихся внутри точно соответствует содержимому папки **assets** находящейся в **06-build-page/assets**. В случае если это не так задание считается невыполненным - 0 баллов. 
+7. Open the `assets` folder. Ensure that its content and the content of subfolders inside it exactly match the content of the `assets` folder in `06-build-page/assets`. If this is not the case, the task is considered not completed - **0 points**.
 
-8. Добавьте в проект тестовые файлы из папки **test-files**:  
-- **06-build-page/test-files/components/about.html** -> **06-build-page/components/about.html**
-- **06-build-page/test-files/images/squirrel-2.jpg** -> **06-build-page/assets/img/squirrel-2.jpg**
-- **06-build-page/test-files/styles/about.css** -> **06-build-page/styles/about.css**  
+8. Add the test files from the `test-files` folder to the project:
+   - `06-build-page/test-files/components/about.html` -> `06-build-page/components/about.html`
+   - `06-build-page/test-files/images/squirrel-2.jpg` -> `06-build-page/assets/img/squirrel-2.jpg`
+   - `06-build-page/test-files/styles/about.css` -> `06-build-page/styles/about.css`
 
-   Не забудьте указать новый шаблонный тег в файле  **template.html**. Затем выполните ещё раз пункты 3-7. 
+   Don't forget to specify the new template tag in the `template.html` file. Then, repeat steps 3-7.
 
-В случае успешной проверки всех пунктов за задание начисляется 50 баллов
+If all points are successfully checked, **50 points** are awarded for the task.
